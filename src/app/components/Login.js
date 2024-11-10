@@ -15,7 +15,7 @@ export default function Login({ onLogin }) {
     setError('');
     try {
       // Use environment variable for API URL
-      const response = await axios.post(`https://travelling-frontend-lovat.vercel.app/`, { username, password });
+      const response = await axios.post(`https://travelling-backend-wg50.onrender.com/login`, { username, password });
       setIsSuccess(true);
       onLogin(true);
     } catch (error) {
