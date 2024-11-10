@@ -5,6 +5,8 @@ Here's a sample `README.md` file for your project.
 ## Live Demo
 
 [View the live application here](https://travelling-frontend-lovat.vercel.app/)
+login id:testuser
+login password:testpass
 
 # Packages Booking Application
 
